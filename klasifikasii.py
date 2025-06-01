@@ -112,7 +112,7 @@ def load_image():
 if __name__ == "__main__":
     model = train_model()
 
-    # GUI
+    # ==== GUI ====
     window = tk.Tk()
     window.title("Klasifikasi Hewan vs Buah")
 
