@@ -102,7 +102,7 @@ def load_image():
 
     try:
         img = Image.open(file_path)
-        img = img.resize((300, 350))
+        img = img.resize((300, 360))
         img_tk = ImageTk.PhotoImage(img)
         label_img.config(image=img_tk)
         label_img.image = img_tk
